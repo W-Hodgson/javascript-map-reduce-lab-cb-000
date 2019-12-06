@@ -9021,7 +9021,7 @@ const openIssues = issues.reduce((open, currentIssue) => {
 }, []);
 
 const nonAutomaticIssues = issues.reduce((nonAutomatic, currentIssue) => {
-  if (nonAutomatic.body.includes("automatically created by learn")) {
+  if (!nonAutomatic.body.includes("automatically created by learn")) {
     nonAutomatic.push(currentIssue)
   }
 

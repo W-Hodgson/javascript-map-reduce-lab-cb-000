@@ -9005,5 +9005,3 @@ const issues = [
 const issuesWithUpdatedApiUrl = issues.map((issue) => {
   
 });
-
-

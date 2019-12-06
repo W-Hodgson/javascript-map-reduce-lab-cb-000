@@ -9020,11 +9020,4 @@ const openIssues = issues.reduce((open, currentIssue) => {
   return open;
 }, []);
 
-const nonAutomaticIssues = issues.reduce((nonAutomatic, currentIssue))
-
-
-
-
-
-
-
+const nonAutomaticIssues = issues.reduce((nonAutomatic, currentIssue));

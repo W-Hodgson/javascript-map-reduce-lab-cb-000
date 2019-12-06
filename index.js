@@ -9015,7 +9015,3 @@ const commentCountAcrossIssues = issues
 const openIssues = issues.reduce((open, currentIssue) => {
   if (currentIssue[state] == "open")
 }, {});
-
-
-
-  

@@ -9016,4 +9016,4 @@ const openIssues = issues.reduce((open, currentIssue) => {
   if (currentIssue[state] == "open") {
     open.push(currentIssue)
   }
-}, {});
+}, []);

@@ -9017,5 +9017,5 @@ const openIssues = issues.reduce((open, currentIssue) => {
     open.push(currentIssue);
   }
 
-  return open
+  return open;
 }, []);

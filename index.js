@@ -9007,3 +9007,7 @@ const issuesWithUpdatedApiUrl = issues.map(
     url: issue.url.replace('api.github.com', 'api-v2.github.com')
   })
 );
+
+const commentCountAcrossIssues = issues.reduce((accumulator, currentIssue) => {
+  
+}, 0)

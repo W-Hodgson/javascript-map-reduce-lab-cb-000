@@ -9008,6 +9008,6 @@ const issuesWithUpdatedApiUrl = issues.map(
   })
 );
 
-const commentCountAcrossIssues = issues.reduce((accumulator, currentIssue) => {
-  accumulator + currentIssue[comments_count];
-}, 0);
+const commentCountAcrossIssues = issues
+  .map(issue => issue.comments_count)
+  .reduce((total, count) => total + count, 0);

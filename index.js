@@ -9025,5 +9025,5 @@ const nonAutomaticIssues = issues.reduce((nonAutomatic, currentIssue) => {
     nonAutomatic.push(currentIssue)
   }
 
-  return nonAutomatic
+  return nonAutomatic;
 }, []);
